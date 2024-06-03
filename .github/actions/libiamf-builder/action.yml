@@ -8,6 +8,6 @@ runs:
     - shell: bash
       run: |
         cd code
-        cmake .
+        cmake -DONFIG_OPUS_CODEC=0 .
         make
 
