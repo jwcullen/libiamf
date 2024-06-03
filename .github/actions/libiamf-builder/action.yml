@@ -8,6 +8,6 @@ runs:
     - shell: bash
       run: |
         cd code
-        cmake -CODEC_CAP=off .
+        cmake -DCODEC_CAP=off .
         make
 
